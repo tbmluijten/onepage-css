@@ -1,0 +1,58 @@
+.menu{
+  height: 100%;
+  background-color: black;
+  font-family: 'Biryani', sans-serif;
+  min-width: 100px;
+}
+
+.menu{
+  .uno{
+    width: 30px;
+    height: 30px;
+    img{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 35px;
+      margin: auto;
+    }
+  }
+  hr{
+    background-color: white;
+    height: 2px;
+    border: none;
+  }
+  .dos{
+    width: 30px;
+    height: 30px;
+    img{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 35px;
+      margin: auto;
+    }
+  }
+  .tres{
+    width: 30px;
+    height: 30px;
+    img{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 35px;
+      margin: auto;
+    }
+  }
+  .cuatro{
+    width: 30px;
+    height: 30px;
+    img{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 35px;
+      margin: auto;
+    }
+  }
+}

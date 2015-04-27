@@ -1,0 +1,304 @@
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 30, ../../public-source/stylesheets/general/general.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
+
+/* line 45, ../../public-source/stylesheets/general/general.scss */
+a {
+  text-decoration: none; }
+
+/* line 49, ../../public-source/stylesheets/general/general.scss */
+input {
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
+
+/* line 58, ../../public-source/stylesheets/general/general.scss */
+svg text {
+  display: none; }
+
+/* line 1, ../../public-source/stylesheets/construct/module/pages.scss */
+html, body, .page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 0.6s cubic-bezier(0.5, 0.2, 0.2, 1.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.5, 0.2, 0.2, 1.1);
+  -moz-transition: all 0.6s cubic-bezier(0.5, 0.2, 0.2, 1.1);
+  -o-transition: all 0.6s cubic-bezier(0.5, 0.2, 0.2, 1.1);
+  color: #fff;
+  overflow: hidden; }
+
+/* line 14, ../../public-source/stylesheets/construct/module/pages.scss */
+* {
+  font-family: 'Biryani', sans-serif; }
+
+/* line 18, ../../public-source/stylesheets/construct/module/pages.scss */
+.page {
+  position: absolute; }
+
+/* line 22, ../../public-source/stylesheets/construct/module/pages.scss */
+.one {
+  left: 0; }
+
+/* line 26, ../../public-source/stylesheets/construct/module/pages.scss */
+.two, .three, .four {
+  left: 200%; }
+
+/* line 30, ../../public-source/stylesheets/construct/module/pages.scss */
+.one {
+  background: #3498db; }
+
+/* line 33, ../../public-source/stylesheets/construct/module/pages.scss */
+.two {
+  background: #e74c3c; }
+
+/* line 36, ../../public-source/stylesheets/construct/module/pages.scss */
+.three {
+  background: #f39c12; }
+
+/* line 39, ../../public-source/stylesheets/construct/module/pages.scss */
+.four {
+  background: #2ecc71; }
+
+/* line 43, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target .two, #t3:target .three, #t4:target .four {
+  transform: translateX(-190%);
+  -webkit-transform: translateX(-190%);
+  -moz-transform: translateX(-190%);
+  -o-transform: translateX(-190%);
+  transition-delay: .4s !important; }
+
+/* line 51, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target .one,
+#t3:target .one,
+#t4:target .one {
+  background: black; }
+
+/* line 57, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target .one .icon,
+#t3:target .one .icon,
+#t4:target .one .icon {
+  -webkit-filter: blur(3px); }
+
+/* line 63, ../../public-source/stylesheets/construct/module/pages.scss */
+.icon {
+  color: #fff;
+  font-size: 32px;
+  display: block; }
+
+/* line 69, ../../public-source/stylesheets/construct/module/pages.scss */
+ul .icon:hover {
+  opacity: 0.5; }
+
+/* line 73, ../../public-source/stylesheets/construct/module/pages.scss */
+.page .icon .title {
+  line-height: 2; }
+
+/* line 77, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target ul .icon,
+#t3:target ul .icon,
+#t4:target ul .icon {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transition-delay: .25s; }
+
+/* line 87, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target .dos,
+#t3:target .tres,
+#t4:target .cuatro {
+  transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important; }
+
+/* line 96, ../../public-source/stylesheets/construct/module/pages.scss */
+ul {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 280px;
+  width: 10%;
+  padding: 0;
+  text-align: center; }
+
+/* line 109, ../../public-source/stylesheets/construct/module/pages.scss */
+.menu .icon {
+  margin: 30px 0;
+  transition: all .5s ease-out !important;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out; }
+
+/* line 117, ../../public-source/stylesheets/construct/module/pages.scss */
+a {
+  text-decoration: none; }
+
+/* line 121, ../../public-source/stylesheets/construct/module/pages.scss */
+.title {
+  font-size: 38px;
+  display: block;
+  font-family: 'Biryani', sans-serif; }
+
+/* line 128, ../../public-source/stylesheets/construct/module/pages.scss */
+.page .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10%;
+  left: 0;
+  width: 270px;
+  height: 170px;
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.3;
+  transform: translateX(360%);
+  -webkit-transform: translateX(360%);
+  -moz-transform: translateX(360%);
+  -o-transform: translateX(360%);
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
+  -moz-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
+  -o-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25); }
+
+/* line 150, ../../public-source/stylesheets/construct/module/pages.scss */
+.page.one .icon {
+  height: 220px; }
+
+/* line 154, ../../public-source/stylesheets/construct/module/pages.scss */
+.page.one .icon {
+  transform: translateX(10%) !important; }
+
+/* line 158, ../../public-source/stylesheets/construct/module/pages.scss */
+#t2:target .page.two .icon,
+#t3:target .page.three .icon,
+#t4:target .page.four .icon {
+  transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
+  -moz-transform: translateX(0) !important;
+  -o-transform: translateX(0) !important;
+  transition-delay: 1s; }
+
+/* line 1, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu {
+  height: 100%;
+  background-color: black;
+  font-family: 'Biryani', sans-serif;
+  min-width: 100px; }
+
+/* line 9, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu .uno {
+  width: 30px;
+  height: 30px; }
+  /* line 12, ../../public-source/stylesheets/construct/module/menu.scss */
+  .menu .uno img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 35px;
+    margin: auto; }
+/* line 20, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu hr {
+  background-color: white;
+  height: 2px;
+  border: none; }
+/* line 25, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu .dos {
+  width: 30px;
+  height: 30px; }
+  /* line 28, ../../public-source/stylesheets/construct/module/menu.scss */
+  .menu .dos img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 35px;
+    margin: auto; }
+/* line 36, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu .tres {
+  width: 30px;
+  height: 30px; }
+  /* line 39, ../../public-source/stylesheets/construct/module/menu.scss */
+  .menu .tres img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 35px;
+    margin: auto; }
+/* line 47, ../../public-source/stylesheets/construct/module/menu.scss */
+.menu .cuatro {
+  width: 30px;
+  height: 30px; }
+  /* line 50, ../../public-source/stylesheets/construct/module/menu.scss */
+  .menu .cuatro img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 35px;
+    margin: auto; }

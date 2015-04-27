@@ -1,0 +1,61 @@
+////////////////////////////
+// COLOR SCHEMES ///////////
+////////////////////////////
+
+$pink:#ed6565;
+$orange:#f0b483;
+$black:#1a1a1a;
+$whitegray:rgb(155, 155, 155);
+$animationSpeed: .4s;
+
+$sentenceMargin: -20px;
+
+// Mixin
+@mixin keyframes($animation-name){
+  @-webkit-keyframes $animation-name {
+    @content;
+  }
+  @-moz-keyframes $animation-name {
+    @content;
+  }
+  @keyframes $animation-name {
+    @content;
+  }
+}
+
+@mixin animation($str){
+  -webkit-animation: #{$str};
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius:0;
+}
+
+svg {
+  text {
+    display:none;
+  }
+}
